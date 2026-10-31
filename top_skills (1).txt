@@ -1,0 +1,6 @@
+Top Skills by Frequency
+python: 6
+sql: 4
+excel: 3
+ml: 3
+statistics: 2
