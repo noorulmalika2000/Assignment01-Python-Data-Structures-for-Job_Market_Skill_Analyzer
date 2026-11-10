@@ -1,63 +1,94 @@
-# 📊 Job Market Skill Analyzer
+### Assignment 01 | Python Data Structures
+**Data Science with Generative AI**
 
-### Assignment 01 – Python Data Structures | Data Science with Generative AI
-## Project Overview
-The **Job Market Skill Analyzer** is a Python-based project developed to analyze job postings and identify the most frequently required skills in the job market.
-The project uses Python data structures and programming concepts to organize job information, extract required skills, count skill frequencies, and identify the top in-demand skills.
-It demonstrates how Python can be used to organize and analyze job-related information in a simple and structured way.
-##  Project Objectives
-- Store and manage job posting information using Python data structures.
-- Extract skills from different job postings.
-- Count the frequency of individual skills.
-- Identify the most frequently requested skills.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+## 📌 1. Project Overview
+
+The **Job Market Skill Analyzer** is a Python-based project developed to analyze job postings and identify the most in-demand skills in the job market.
+
+The project uses Python data structures and programming techniques to store job information, extract skills, calculate skill frequencies, and identify the top skills required by employers.
+
+This project demonstrates how Python can be used to organize, process, and analyze job market data efficiently.
+
+## 🎯 2. Project Objectives
+
+- Store job posting information using Python data structures.
+- Extract individual skills from job descriptions.
+- Calculate the frequency of each skill.
+- Identify the top five most frequently requested skills.
 - Filter job roles based on skill requirements.
-- Export the analyzed information into CSV and TXT files.
-## Technologies Used
+- Export processed information into CSV and TXT files.
+
+## 🛠️ 3. Technologies Used
+
 | Technology | Purpose |
+|---|---|
 | Python | Core programming language |
 | Google Colab | Writing and executing Python code |
-| GitHub | Project storage and version control |
+| Jupyter Notebook | Interactive coding environment |
+| GitHub | Project hosting and version control |
 | CSV | Storing structured job information |
 | TXT | Saving skill analysis results |
-## Key Features
+
+## ✨ 4. Key Features
+
 ### 1. Job Data Management
-Stores job posting details such as Job ID, Role, Company, and Skills.
+Stores job information such as Job ID, Role, Company, and Skills.
+
 ### 2. Skill Extraction
-Extracts individual skills from job postings for further analysis.
+Extracts individual skills from job postings for analysis.
+
 ### 3. Skill Frequency Analysis
-Counts how frequently each skill appears across the job postings.
+Counts how frequently each skill appears across the collected job postings.
+
 ### 4. Top Skills Identification
-Identifies the top five most frequently required skills.
+Identifies the five most frequently required skills based on the analysis.
+
 ### 5. Job Role Filtering
-Uses filtering techniques to identify job roles based on skill requirements.
+Filters job roles based on specific skill requirements using Python functions.
+
 ### 6. File Export
-Saves the processed job information into a CSV file and the top skills into a TXT file.
-## Python Concepts Implemented
-| Concept | Application |
+Exports processed job information into a CSV file and the top skills into a TXT file.
+
+## 📚 5. Python Concepts Implemented
+
+| Python Concept | Application |
 |---|---|
 | Lists | Storing job and skill information |
 | Dictionaries | Organizing job posting details |
 | Tuples | Working with structured data |
 | Sets | Identifying unique skills |
 | List Comprehension | Processing skill information |
-| Functions | Creating reusable program logic |
-| Lambda Functions | Writing short anonymous functions |
+| Functions | Creating reusable code |
+| Lambda Functions | Writing anonymous functions |
 | Filter | Filtering job roles |
 | Sorting | Arranging skills by frequency |
-| Exception Handling | Managing potential errors |
-| File Handling | Reading and writing CSV and TXT files |
-## Project Results
-The project identifies the most frequently required skills from the job postings.
-### Top 5 In-Demand Skills
-| Skill | Frequency |
-|---|---:|
-| Python | 8 |
-| SQL | 5 |
-| Excel | 4 |
-| Machine Learning | 3 |
-| Statistics | 2 |
-These results represent the skill frequencies in the job postings included in this assignment.
-## 📂 Project Structure
+| Exception Handling | Handling possible errors |
+| File Handling | Creating CSV and TXT files |
+
+## 📈 6. Project Results
+
+The analysis identified the following top five skills from the job postings included in the project.
+
+| Rank | Skill | Frequency |
+|---|---|---:|
+| 1 | Python | 8 |
+| 2 | SQL | 5 |
+| 3 | Excel | 4 |
+| 4 | Machine Learning | 3 |
+| 5 | Statistics | 2 |
+
+### Key Observation
+
+Python was the most frequently requested skill in the analyzed job postings, followed by SQL and Excel.
+
+These results represent the sample job data used in this assignment and not the entire job market.
+
+## 📂 7. Project Structure
+
 ```text
 Job_Market_Skill_Analyzer/
 │
@@ -66,31 +97,45 @@ Job_Market_Skill_Analyzer/
 ├── top_skills (1).txt
 └── README.md
 ```
+
 ### File Description
-- **Assignment01.ipynb** – Contains the Python code, analysis steps, and execution outputs.
+
+- **Assignment01.ipynb** – Contains the Python code, analysis, and execution outputs.
 - **job_skills (2).csv** – Contains the processed job posting information.
-- **top_skills (1).txt** – Contains the identified top skills and their frequencies.
-- **README.md** – Provides project documentation and instructions.
-## How to Run the Project
+- **top_skills (1).txt** – Contains the top five skills and their frequencies.
+- **README.md** – Provides project documentation.
+
+## 🚀 8. How to Run the Project
+
 1. Clone or download this GitHub repository.
 2. Open Google Colab.
 3. Upload the `Assignment01.ipynb` notebook.
-4. Run the notebook cells sequentially.
-5. Review the skill frequency analysis and top five skills.
-6. Download or review the generated CSV and TXT files.
-## Learning Outcomes
+4. Run all notebook cells sequentially.
+5. Review the skill extraction and frequency analysis.
+6. Check the generated CSV and TXT output files.
+
+## 🎓 9. Learning Outcomes
+
 Through this project, I gained practical experience in:
+
 - Understanding and applying Python data structures.
-- Managing and processing job posting information.
-- Using lists, dictionaries, tuples, and sets.
-- Applying functions, lambda expressions, and filtering.
+- Organizing and processing job posting information.
+- Working with lists, dictionaries, tuples, and sets.
+- Using functions, lambda expressions, and filtering.
 - Performing skill frequency analysis.
-- Exporting results into CSV and TXT files.
-- Developing problem-solving skills using Python.
-## Author
+- Handling and exporting data using CSV and TXT files.
+- Developing logical thinking and problem-solving skills.
+
+This assignment helped me strengthen my Python programming fundamentals and understand how programming can be applied to analyze real-world data.
+
+## 👩‍💻 10. Author
+
 **Noorul Malika**
+
 Data Science with Generative AI Program
-GitHub Profile: [@noorulmalika2000](https://github.com/noorulmalika2000)
+
+GitHub: [@noorulmalika2000](https://github.com/noorulmalika2000)
+
 Project Repository: [Job Market Skill Analyzer](https://github.com/noorulmalika2000/Assignment01-Python-Data-Structures-for-Job_Market_Skill_Analyzer)
 
 ---
